@@ -392,6 +392,34 @@ section{
     opacity: 1;
 }
 
+.portfolio .box-container .box .content h4{
+    font-size: 1.3rem;
+    color:var(--black);
+    text-transform: uppercase;
+    transform: translateY(6rem);
+    opacity: 0;
+    transition-delay: .7s;
+}
+
+.portfolio .box-container .box .content span{
+    font-size: 1.1rem;
+    color:var(--black);
+    transform: translateY(6rem);
+    opacity: 0;
+    transition-delay: .7s;
+}
+
+
+.portfolio .box-container .box:hover .content h4{
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
+.portfolio .box-container .box:hover .content span{
+    transform: translateY(0rem);
+    opacity: 1;
+}
+
 .contact form{
     margin:1rem auto;
     max-width: 70rem;
